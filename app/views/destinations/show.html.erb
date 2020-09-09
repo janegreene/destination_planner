@@ -26,4 +26,11 @@
     <%= link_to 'Edit', edit_destination_path(@destination) %> |
     <%= link_to 'Back', destinations_path %>
   </div>
+  <div class="forecast">
+    <p>Current Temp: </p> <p class="current"> <%= @destinationfacade.current_temp %></p>
+    <p>High Temp: </p>  <p class="high_temp"> <%= @destinationfacade.high_temp %></p>
+    <p>Low Temp: </p>  <p class="low_temp"> <%= @destinationfacade.low_temp %></p>
+    <p>Summary: </p>  <p class="summary"> <%= @destinationfacade.summary %></p>
+    <p>Date: </p>  <p class="date"> <%= @destinationfacade.date %></p>
+  </div>
 </div>

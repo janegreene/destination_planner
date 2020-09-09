@@ -17,6 +17,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.4.1'
 gem 'bootsnap'
 gem 'jquery-rails'
+gem 'faker'
+gem 'fast_jsonapi'
+gem 'faraday'
+gem 'figaro'
 
 
 group :development, :test do
